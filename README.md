@@ -1,46 +1,51 @@
-# Blockchain Data Integrity System
+# Block-Chain Integration
 
-A dark-themed web-based Blockchain Data Integrity System designed to ensure the integrity of files.  
-This system allows users to select files, compute hashes, add them to a blockchain, verify the chain, and simulate tampering.
+**A demonstration of secure data storage and transaction validation using blockchain technology.**
+
+**Author:** Zrar Akbar  
+**Project Type:** Academic / Demonstration Project  
+
+---
+
+## Overview
+This project demonstrates the integration of blockchain technology for secure and transparent data storage and transfer. It covers the core concepts of blockchain including:  
+
+- Blocks and transactions  
+- Hashing for immutability  
+- Linking blocks in a chain  
+- Basic blockchain validation  
+
+The project provides a hands-on approach to understand how blockchain ensures data integrity and security.
+
+---
 
 ## Features
+- Creation of blocks with transaction data  
+- Hashing and linking blocks for immutability  
+- Validation of the blockchain  
+- Optional GUI visualization (if applicable)  
+- Demonstrates basic blockchain concepts suitable for learning and experimentation  
 
-- *File Management*
-  - Choose files from your PC
-  - Compute SHA-256 hash (mocked in HTML version)
-  - Add files as blocks to the blockchain
-
-- *Blockchain Operations*
-  - Genesis block automatically created
-  - Verify blockchain integrity
-  - Simulate tampering to test detection
-
-- *GUI*
-  - Dark-themed, modern interface
-  - Block details panel showing index, timestamp, filename, and hash
-  - Interactive buttons for all blockchain actions
+---
 
 ## Technologies Used
+- **Programming Language:** Java / Python (replace with what you used)  
+- **Storage:** Local file system for blockchain simulation  
+- **GUI (Optional):** Java Swing / Tkinter / any GUI library used  
 
-- PYTHON
-- HTML
 
-## Author
+## Project Structure
+Block-Chain integration/
+│
+├─ src/ # Source code files
+├─ README.md # Project description and instructions
+├─ LICENSE # License file
+├─ .gitignore # Git ignore rules
+└─ images/ # Optional screenshots or visuals
 
-Developed by **Muhammad Zrar Akbar**  
-Educational use only — commercial reuse or redistribution is prohibited.
+---
 
-## Installation & Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ZRARAKBAR/Block---Chain-integration.git
-   ```
-2. Open `index.html` in any modern web browser (Chrome, Firefox, Edge).  
-3. The **genesis block** appears automatically.  
-4. Use the GUI buttons to choose files, compute hash, add blocks, verify the chain, or simulate tampering.
-
-## License
-
-Educational use only — commercial reuse, redistribution, or selling is strictly prohibited.
-You may use this project for learning and personal purposes only
+## Usage
+1. Clone the repository:  
+```bash
+git clone https://github.com/ZRARAKBAR/Block-Chain-Integration.git
